@@ -1,3 +1,5 @@
+import random 
+
 destinations = ["Bora Bora", "Miami", "Cancun", "Panama", "Puerto Rico", "Egypt"]
 restaurants = ["eat SteakHouse", "get Shake Shack", "eat some Surf n Turf", "eat McDonalds"]
 mode_of_transportation = ["drive a Dodge Challenger", "drive a Chevy Avalanche", "drive a Tahoe", "ride in a taxi"]
@@ -41,3 +43,6 @@ print(f"transportation: {rand_transportation}")
 print(f"restaurant: {rand_restaurants}")
 print(f"entertainment: {rand_entertainment}")
 
+confirmation_message = input("Would you like to finalize this trip? Enter y/n: ")
+print()
+print(f"Dream Vacation Confirmed! You will be arriving in {rand_destination}, where your primary mode of getting around will be your choice to {rand_transportation}. You will {rand_restaurants} for dinner. I hope your choice to {rand_entertainment} turns out terrific. Make sure you take pictures, send us a postcard, and leave a review on our website.")
