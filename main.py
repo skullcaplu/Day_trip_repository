@@ -31,3 +31,13 @@ while valid_response4 == False:
     rest_mess = input(f"would you like to {rand_restaurants} y/n ")
     if rest_mess == "y":
         valid_response4 = True
+
+print()
+
+print("Congratulations, we have finalized all of your vacation preferences.")
+print("Your vacation details: ")
+print(f"destination:  {rand_destination}")
+print(f"transportation: {rand_transportation}")
+print(f"restaurant: {rand_restaurants}")
+print(f"entertainment: {rand_entertainment}")
+
