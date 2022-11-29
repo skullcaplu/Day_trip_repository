@@ -3,6 +3,11 @@ restaurants = ["eat SteakHouse", "get Shake Shack", "eat some Surf n Turf", "eat
 mode_of_transportation = ["drive a Dodge Challenger", "drive a Chevy Avalanche", "drive a Tahoe", "ride in a taxi"]
 entertainment = ["go bowling", "go to the beach", "go skydiving", "go sight seeing"]
 
+valid_response = False 
+valid_response2 =False
+valid_response3 = False
+valid_response4 = False
+
 while valid_response == False:
     rand_destination = random.choice(destinations)
     dest_mess = input(f"would you like to go to {rand_destination} y/n ")
